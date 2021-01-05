@@ -1,0 +1,2166 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 767.98px) {
+  /*-------------header---------------*/
+  .header {
+    width: 100%;
+  }
+  .header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header .navbar a.logo img {
+    width: 100%;
+  }
+  .header .navbar .main-menu-nav ul {
+    margin: 0px;
+    text-align: right;
+  }
+  .header .navbar .main-menu-nav ul li {
+    display: inline-block;
+    margin: 0px 0px 0px 5px;
+  }
+  .header .navbar .main-menu-nav ul li a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    color: #dd6501;
+  }
+  .header .navbar .main-menu-nav ul li .btn {
+    width: 90px;
+    height: 32px;
+    color: #ffffff;
+    background: #dd6501;
+    font-size: 14px;
+  }
+  /* ==========manageYourCapital============= */
+  .manageYourCapital {
+    /* display: flex; */
+    width: 100%;
+    background: url("images/Untitled-1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+  }
+  .manageYourCapital .leftManageFree {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+  .manageYourCapital .leftManageFree .manageTextBox {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    /* margin: 10% auto 4% 15%; */
+    padding: 10px;
+    text-align: center;
+  }
+  .manageYourCapital .leftManageFree .manageTextBox h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #dd6501;
+  }
+  .manageYourCapital .leftManageFree .manageTextBox p {
+    margin: 10px auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+  }
+  .manageYourCapital .leftManageFree .manageTextBox button {
+    padding: 2% 5%;
+    font-family: "Lao Muang Khong";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+    background: #dd6501;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 50px;
+  }
+  .manageYourCapital .rightManageFree {
+    width: 100%;
+    text-align: center;
+  }
+  .manageYourCapital .rightManageFree img {
+    width: 76%;
+    height: 95%;
+    margin: 0% 10%;
+    padding: 10px;
+  }
+  /* ================captableManagement================== */
+  .captableManagement {
+    background: url("images/Rectangle.png");
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3%;
+    text-align: center;
+  }
+  .captableManagement .leftCaptable {
+    width: 100%;
+  }
+  .captableManagement .leftCaptable img {
+    width: 85%;
+    height: 95%;
+    padding: 10px;
+  }
+  .captableManagement .rightCaptable {
+    width: 100%;
+  }
+  .captableManagement .rightCaptable .captableTextBox {
+    padding: 4%;
+  }
+  .captableManagement .rightCaptable .captableTextBox h5 {
+    background: #555555;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #ffffff;
+    padding: 2% 5%;
+    border-radius: 20px;
+    margin-bottom: 25px;
+  }
+  .captableManagement .rightCaptable .captableTextBox ul {
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+  }
+  .captableManagement .rightCaptable .captableTextBox ul li {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+    list-style: none;
+    margin: 0px;
+  }
+  .captableManagement .rightCaptable .captableTextBox button {
+    background: #dd6501;
+    font-family: "Lao Muang Khong";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #ffffff;
+    padding: 2% 6%;
+    border-radius: 50px;
+    margin: 6%;
+    text-align: center;
+  }
+  /* ==============ESOP============= */
+  .esop {
+    /* display: flex; */
+    width: 100%;
+    background: url("images/Untitled-2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15px;
+    text-align: center;
+  }
+  .esop .leftESOP {
+    width: 100%;
+  }
+  .esop .leftESOP .esopTextBox {
+    margin: 5% 8%;
+    text-align: center;
+  }
+  .esop .leftESOP .esopTextBox h5 {
+    background: #555555;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #ffffff;
+    padding: 2% 10%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  .esop .leftESOP .esopTextBox ul {
+    padding: 0px;
+    text-align: center;
+    margin: 0px auto;
+  }
+  .esop .leftESOP .esopTextBox ul li {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #555555;
+    list-style: none;
+    margin: 0px;
+  }
+  .esop .leftESOP .esopTextBox button {
+    background: #dd6501;
+    font-family: "Lao Muang Khong";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+    padding: 2% 10%;
+    border-radius: 50px;
+    margin: 4% auto;
+    text-align: center;
+  }
+  .esop .rightESOP {
+    width: 100%;
+    text-align: center;
+  }
+  .esop .rightESOP img {
+    width: 50%;
+    height: 83%;
+    padding: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  /* =======whatYouDo======== */
+  .whatYouDo {
+    /* display: flex;
+    justify-content: space-around; */
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  .whatYouDo .leftWhatYouDo {
+    text-align: center;
+    align-items: center;
+  }
+  .whatYouDo .leftWhatYouDo h6 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    color: #dd6501;
+    padding: 20px;
+    /* margin: 5% 0px; */
+  }
+  .whatYouDo .leftWhatYouDo img {
+    width: 100%;
+  }
+  .whatYouDo .rightWhatYouDo {
+    align-items: center;
+    text-align: center;
+  }
+  .whatYouDo .rightWhatYouDo h6 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    color: #dd6501;
+    padding: 20px;
+    /* margin: 9% 0px; */
+  }
+  .whatYouDo .rightWhatYouDo img {
+    width: 100%;
+  }
+  /* ==========getStarted========== */
+  .getStarted {
+    background: url("images/Rectangle5.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 3% auto;
+    text-align: center;
+  }
+  .getStarted .gotQuestion {
+    /* display: flex;
+    justify-content: space-around; */
+    padding: 30px;
+    text-align: center;
+  }
+  .getStarted .gotQuestion .gotText h4 {
+    /* width: 300px; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 20px;
+    color: #000000;
+  }
+  .getStarted .gotQuestion .gotText p {
+    font-style: normal;
+    /* width: 300px; */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+  }
+  .getStarted .gotQuestion button.btnGet {
+    width: 200px;
+    height: 60px;
+    color: #ffffff;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    background: #57b9ba;
+    border-radius: 15px;
+    margin: 10px;
+  }
+  .getStarted .gotQuestion button.btnGot {
+    width: 200px;
+    height: 60px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 10px;
+    background: rgba(221, 101, 1, 0.7);
+    border-radius: 15px;
+  }
+  .getStarted .xflex {
+    display: flex;
+    text-align: left;
+  }
+  .getStarted .designEsop {
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+  }
+  .getStarted .designEsop img {
+    width: 100%;
+    margin: 15px auto;
+  }
+  .getStarted .designEsop .hide {
+    display: none;
+  }
+  .getStarted .designText {
+    /* display: flex;
+    justify-content: space-around; */
+    padding: 3%;
+  }
+  /* .getStarted .designText div {
+    width: 28%;
+  } */
+  .getStarted .designText div h6 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    /* text-align: center; */
+    color: #000000;
+  }
+  .getStarted .designText div p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* text-align: center; */
+    color: #000000;
+  }
+  /* ==============plugplay============= */
+  .plugPlay {
+    /* display: flex; */
+    width: 100%;
+    /* height: 431px; */
+    background: url("images/Untitled-3.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  .plugPlay .leftPlugPlay {
+    width: 100%;
+    padding: 20px;
+  }
+  .plugPlay .leftPlugPlay .esopTextBox {
+    /* margin: 8% 20% 10% 5%; */
+    align-items: center;
+    text-align: center;
+  }
+  .plugPlay .leftPlugPlay .esopTextBox h5 {
+    background: #555555;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #ffffff;
+    padding: 2% 7%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  .plugPlay .leftPlugPlay .esopTextBox p {
+    /* width: 93%; */
+    font-family: "SeoulNamsan CBL";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    margin: 0px auto;
+  }
+  .plugPlay .leftPlugPlay .esopTextBox button {
+    background: #dd6501;
+    font-family: "Lao Muang Khong";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+    padding: 2% 15%;
+    border-radius: 50px;
+    margin: 6% auto;
+    text-align: center;
+  }
+  .plugPlay .rightPlugPlay {
+    width: 100%;
+  }
+  .plugPlay .rightPlugPlay img {
+    width: 74%;
+    /* height: 77%; */
+    /* margin: 10% 15% 9% 11%; */
+    padding: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  /* ===================checkOut====================== */
+  .checkOut {
+    width: 100%;
+    height: 600px;
+  }
+  .checkOut h3 {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    margin-top: 30px;
+  }
+  .checkOut p {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    margin: 500px 0px 0px 0px;
+  }
+  /* ==============imagesrow============== */
+  .imagesrow {
+    width: 100%;
+    padding: 6% 10%;
+    background: rgba(196, 196, 196, 0.2);
+  }
+  .imagesrow img {
+    width: 100%;
+  }
+  /* ==========bion=========== */
+  .bion {
+    width: 100%;
+    height: 438px;
+    padding: 30px;
+    text-align: center;
+  }
+  .bion h6 {
+    font-family: "Redressed";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+    color: #000000;
+    text-align: center;
+  }
+  .bion img {
+    margin: 17% auto;
+    width: 19%;
+    height: 18%;
+  }
+  .bion p {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+  }
+  /* ========footer========= */
+  footer {
+    background: url("images/Rectangle5.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* display: flex;
+    justify-content: space-between; */
+    padding: 30px;
+  }
+  footer .onehalf {
+    /* width: 450px; */
+  }
+  footer .onehalf .uperhalf {
+    /* display: flex;
+    justify-content: space-around; */
+    margin: 10px auto;
+  }
+  footer .onehalf .uperhalf ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+  }
+  footer .onehalf .uperhalf ul li {
+    list-style: none;
+  }
+  footer .onehalf .uperhalf ul li a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+  }
+  footer .onehalf .uperhalf ul li a.active {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #dd6501;
+  }
+  footer .onehalf .lowerhalf {
+    /* display: flex;
+    justify-content: space-around; */
+    margin-top: 10px;
+  }
+  footer .onehalf .lowerhalf ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+  }
+  footer .onehalf .lowerhalf ul li {
+    list-style: none;
+  }
+  footer .onehalf .lowerhalf ul li a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+  }
+  footer .onehalf .lowerhalf ul li a.active {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #dd6501;
+  }
+  footer .twohalf {
+    text-align: center;
+  }
+  footer .twohalf img {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+  }
+  footer .twohalf a.news {
+    border: 2px solid #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    padding: 5px 10px;
+  }
+  footer .twohalf .ficons {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px auto;
+  }
+  footer .twohalf .ficons a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    color: #000000;
+    padding: 0px;
+    text-align: center;
+  }
+  /* ===========signinPage========== */
+  .mainsignin {
+    background: #57b9ba;
+    width: 100%;
+  }
+  .signinPage {
+    /* display: flex;
+    justify-content: space-around; */
+    text-align: center;
+  }
+  .signinPage .signinText {
+    /* width: 100%; */
+    padding: 5%;
+  }
+  .signinPage .signinText ul {
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+  }
+  .signinPage .signinText li {
+    list-style: none;
+    margin: 10% 0px;
+  }
+  .signinPage .signinText li a {
+    display: flex;
+  }
+  .signinPage .signinText ul li a span {
+    font-family: "Lao Muang Khong";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #ffffff;
+    margin: 0px;
+  }
+  .signinPage .signinText ul li a img {
+    width: 40px;
+    height: 35px;
+    margin-right: 18px;
+  }
+  .signinPage .signinCard {
+    width: 100%;
+    padding: 5%;
+  }
+  .signinPage .signinCard .card {
+    border-radius: 20px;
+    padding: 10px;
+    padding: 3% auto;
+  }
+  .signinPage .signinCard .card .cardAlign {
+    align-items: center;
+    text-align: center;
+  }
+  .signinPage .signinCard .card .cardAlign img {
+    width: 40%;
+    margin: 5% 0px;
+  }
+  .signinPage .signinCard .card .cardAlign input {
+    color: #57b9ba;
+    border: 1px solid #57b9ba;
+    padding: 8px;
+    margin: 2% 0px;
+    width: 80%;
+    font-size: 14px;
+  }
+  .signinPage .signinCard .card .cardAlign input::placeholder {
+    color: #57b9ba;
+  }
+  .signinPage .signinCard .card .cardAlign button {
+    color: #ffffff;
+    background: #dd6501;
+    border-radius: 50px;
+    padding: 8px 20px;
+    font-size: 14px;
+    margin: 2% auto;
+  }
+  .signinPage .signinCard .card .orFlex {
+    display: flex;
+    justify-content: space-around;
+    margin: 3% 0px;
+  }
+  .signinPage .signinCard .card .signinButtons {
+    display: flex;
+    justify-content: space-around;
+  }
+  .signinPage .signinCard .card .signinButtons button.google {
+    background: #dddddd;
+    color: #494949;
+    font-size: 10px;
+    font-weight: 900;
+    border-radius: 20px;
+    padding: 5px;
+  }
+  .signinPage .signinCard .card .signinButtons button.linkedin {
+    background: #378fe9;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .signinPage .signinCard .card .forgot {
+    /* display: flex;
+    justify-content: space-around; */
+    margin-top: 15px;
+    text-align: center;
+  }
+  .signinPage .signinCard .card .forgot p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 13px;
+    color: #9d9e9b;
+  }
+  .signinfooter {
+    /* display: flex;
+    justify-content: space-around; */
+    text-align: center;
+  }
+  .signinfooter p {
+    font-family: "Lao Muang Khong";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    color: #ffffff;
+    padding: 20px auto;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /*-------------header---------------*/
+  .header {
+    width: 100%;
+  }
+  .header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header .navbar a.logo img {
+    width: 100%;
+  }
+  .header .navbar .main-menu-nav ul {
+    margin: 0px;
+  }
+  .header .navbar .main-menu-nav ul li {
+    display: inline-block;
+    margin: 0px 0px 0px 5px;
+  }
+  .header .navbar .main-menu-nav ul li a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #dd6501;
+  }
+  .header .navbar .main-menu-nav ul li .btn {
+    color: #ffffff;
+    background: #dd6501;
+    font-size: 12px;
+    padding: 5px 15px;
+  }
+  /* ==========manageYourCapital============= */
+  .manageYourCapital {
+    display: flex;
+    width: 100%;
+    background: url("images/Untitled-1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .manageYourCapital .leftManageFree {
+    width: 50%;
+  }
+  .manageYourCapital .leftManageFree .manageTextBox {
+    width: 65%;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 10% auto 4% 15%;
+    padding: 10px;
+    text-align: center;
+  }
+  .manageYourCapital .leftManageFree .manageTextBox h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #dd6501;
+  }
+  .manageYourCapital .leftManageFree .manageTextBox p {
+    margin: 10px auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .manageYourCapital .leftManageFree .manageTextBox button {
+    padding: 2% 5%;
+    font-family: "Lao Muang Khong";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+    background: #dd6501;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 50px;
+  }
+  .manageYourCapital .rightManageFree {
+    width: 50%;
+  }
+  .manageYourCapital .rightManageFree img {
+    width: 76%;
+    height: 95%;
+    margin: 0% 10%;
+    padding: 10px;
+  }
+  /* ================captableManagement================== */
+  .captableManagement {
+    background: url("images/Rectangle.png");
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+  }
+  .captableManagement .leftCaptable {
+    width: 50%;
+  }
+  .captableManagement .leftCaptable img {
+    width: 76%;
+    height: 95%;
+    margin: 0% 10%;
+    padding: 10px;
+  }
+  .captableManagement .rightCaptable {
+    width: 50%;
+  }
+  .captableManagement .rightCaptable .captableTextBox {
+    margin: 4%;
+  }
+  .captableManagement .rightCaptable .captableTextBox h5 {
+    background: #555555;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #ffffff;
+    padding: 2% 5%;
+    border-radius: 20px;
+    margin-bottom: 25px;
+  }
+  .captableManagement .rightCaptable .captableTextBox ul {
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+  }
+  .captableManagement .rightCaptable .captableTextBox ul li {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;
+    list-style: none;
+    margin: 0px;
+  }
+  .captableManagement .rightCaptable .captableTextBox button {
+    background: #dd6501;
+    font-family: "Lao Muang Khong";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+    padding: 2% 6%;
+    border-radius: 50px;
+    margin: 6% 35%;
+    text-align: center;
+  }
+  /* ==============ESOP============= */
+  .esop {
+    display: flex;
+    width: 100%;
+    background: url("images/Untitled-2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .esop .leftESOP {
+    width: 50%;
+  }
+  .esop .leftESOP .esopTextBox {
+    margin: 5% 8%;
+    text-align: center;
+  }
+  .esop .leftESOP .esopTextBox h5 {
+    background: #555555;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #ffffff;
+    padding: 2% 10%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  .esop .leftESOP .esopTextBox ul {
+    padding: 0px;
+    text-align: center;
+    margin: 0px auto;
+  }
+  .esop .leftESOP .esopTextBox ul li {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #555555;
+    list-style: none;
+    margin: 0px;
+  }
+  .esop .leftESOP .esopTextBox button {
+    background: #dd6501;
+    font-family: "Lao Muang Khong";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+    padding: 2% 10%;
+    border-radius: 50px;
+    margin: 3% auto;
+    text-align: center;
+  }
+  .esop .rightESOP {
+    width: 50%;
+  }
+  .esop .rightESOP img {
+    width: 50%;
+    height: 83%;
+    margin: 5% 12% 5% 35%;
+    padding: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  /* =======whatYouDo======== */
+  .whatYouDo {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px;
+  }
+  .whatYouDo .leftWhatYouDo {
+    text-align: center;
+    align-items: center;
+  }
+  .whatYouDo .leftWhatYouDo h6 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    color: #dd6501;
+    /* margin: 5% 0px; */
+  }
+  .whatYouDo .leftWhatYouDo img {
+    width: 95%;
+  }
+  .whatYouDo .rightWhatYouDo {
+    align-items: center;
+    text-align: center;
+  }
+  .whatYouDo .rightWhatYouDo h6 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    color: #dd6501;
+    /* margin: 9% 0px; */
+  }
+  .whatYouDo .rightWhatYouDo img {
+    width: 95%;
+  }
+  /* ==========getStarted========== */
+  .getStarted {
+    background: url("images/Rectangle5.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 3% auto;
+  }
+  .getStarted .gotQuestion {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+  }
+  .getStarted .gotQuestion .gotText h4 {
+    width: 300px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 20px;
+    color: #000000;
+  }
+  .getStarted .gotQuestion .gotText p {
+    font-style: normal;
+    width: 300px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+  }
+  .getStarted .gotQuestion button.btnGet {
+    width: 200px;
+    height: 60px;
+    color: #ffffff;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    background: #57b9ba;
+    border-radius: 15px;
+  }
+  .getStarted .gotQuestion button.btnGot {
+    width: 200px;
+    height: 60px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    background: rgba(221, 101, 1, 0.7);
+    border-radius: 15px;
+  }
+  .getStarted .designEsop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .getStarted .designEsop img {
+    width: 100%;
+    padding: 0px 20px;
+  }
+  .getStarted .designText {
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+  }
+  .getStarted .designText div {
+    width: 28%;
+  }
+  .getStarted .designText div h6 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+  }
+  .getStarted .designText div p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+  }
+  /* ==============plugplay============= */
+  .plugPlay {
+    display: flex;
+    width: 100%;
+    /* height: 431px; */
+    background: url("images/Untitled-3.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .plugPlay .leftPlugPlay {
+    width: 50%;
+    padding: 20px;
+  }
+  .plugPlay .leftPlugPlay .esopTextBox {
+    margin: 8% 20% 10% 5%;
+    align-items: center;
+    text-align: center;
+  }
+  .plugPlay .leftPlugPlay .esopTextBox h5 {
+    background: #555555;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #ffffff;
+    padding: 2% 7%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  .plugPlay .leftPlugPlay .esopTextBox p {
+    width: 93%;
+    font-family: "SeoulNamsan CBL";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    margin: 0px auto;
+  }
+  .plugPlay .leftPlugPlay .esopTextBox button {
+    background: #dd6501;
+    font-family: "Lao Muang Khong";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+    padding: 2% 15%;
+    border-radius: 50px;
+    margin: 6% auto;
+    text-align: center;
+  }
+  .plugPlay .rightPlugPlay {
+    width: 50%;
+  }
+  .plugPlay .rightPlugPlay img {
+    width: 74%;
+    height: 77%;
+    margin: 10% 15% 9% 11%;
+    padding: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  /* ===================checkOut====================== */
+  .checkOut {
+    width: 100%;
+    height: 800px;
+  }
+  .checkOut h3 {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+    margin-top: 30px;
+  }
+  .checkOut p {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+    margin: 680px 0px 0px 0px;
+  }
+  /* ==============imagesrow============== */
+  .imagesrow {
+    width: 100%;
+    padding: 6% 10%;
+    background: rgba(196, 196, 196, 0.2);
+  }
+  .imagesrow img {
+    width: 100%;
+  }
+  /* ==========bion=========== */
+  .bion {
+    width: 100%;
+    height: 438px;
+    padding: 30px;
+    text-align: center;
+  }
+  .bion h6 {
+    font-family: "Redressed";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+    color: #000000;
+    text-align: center;
+  }
+  .bion img {
+    margin: 17% auto;
+    width: 19%;
+    height: 18%;
+  }
+  .bion p {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+  }
+  /* ========footer========= */
+  footer {
+    background: url("images/Rectangle5.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  footer .onehalf {
+    width: 450px;
+  }
+  footer .onehalf .uperhalf {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto;
+  }
+  footer .onehalf .uperhalf ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+  }
+  footer .onehalf .uperhalf ul li {
+    list-style: none;
+  }
+  footer .onehalf .uperhalf ul li a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+  }
+  footer .onehalf .uperhalf ul li a.active {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #dd6501;
+  }
+  footer .onehalf .lowerhalf {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  footer .onehalf .lowerhalf ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+  }
+  footer .onehalf .lowerhalf ul li {
+    list-style: none;
+  }
+  footer .onehalf .lowerhalf ul li a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+  }
+  footer .onehalf .lowerhalf ul li a.active {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #dd6501;
+  }
+  footer .twohalf img {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+  }
+  footer .twohalf a.news {
+    border: 2px solid #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    padding: 5px 10px;
+  }
+  footer .twohalf .ficons {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px auto;
+  }
+  footer .twohalf .ficons a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    color: #000000;
+    padding: 0px;
+    text-align: center;
+  }
+  /* ===========signinPage========== */
+  .mainsignin {
+    background: #57b9ba;
+    width: 100%;
+  }
+  .signinPage {
+    display: flex;
+    justify-content: space-around;
+  }
+  .signinPage .signinText {
+    /* width: 50%; */
+    padding: 5%;
+  }
+  .signinPage .signinText ul {
+    margin: 0px;
+    padding: 0px;
+    /* align-items: center; */
+  }
+  .signinPage .signinText li {
+    list-style: none;
+    margin: 15% 0px;
+  }
+  .signinPage .signinText li a {
+    display: flex;
+  }
+  .signinPage .signinText ul li a span {
+    font-family: "Lao Muang Khong";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #ffffff;
+    margin: 0px;
+  }
+  .signinPage .signinText ul li a img {
+    width: 40px;
+    height: 35px;
+    margin-right: 18px;
+  }
+  .signinPage .signinCard {
+    /* width: 50%; */
+    padding: 5%;
+  }
+  .signinPage .signinCard .card {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 3% auto;
+  }
+  .signinPage .signinCard .card .cardAlign {
+    align-items: center;
+    text-align: center;
+  }
+  .signinPage .signinCard .card .cardAlign img {
+    width: 40%;
+    margin: 5% 0px;
+  }
+  .signinPage .signinCard .card .cardAlign input {
+    color: #57b9ba;
+    border: 1px solid #57b9ba;
+    padding: 8px;
+    margin: 2% 0px;
+    width: 80%;
+    font-size: 12px;
+  }
+  .signinPage .signinCard .card .cardAlign input::placeholder {
+    color: #57b9ba;
+  }
+  .signinPage .signinCard .card .cardAlign button {
+    color: #ffffff;
+    background: #dd6501;
+    border-radius: 50px;
+    padding: 8px 20px;
+    font-size: 14px;
+    margin: 2% auto;
+  }
+  .signinPage .signinCard .card .orFlex {
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 0px;
+  }
+  .signinPage .signinCard .card .signinButtons {
+    display: flex;
+    justify-content: space-around;
+  }
+  .signinPage .signinCard .card .signinButtons button.google {
+    background: #dddddd;
+    color: #494949;
+    font-size: 10px;
+    font-weight: 900;
+    border-radius: 20px;
+    padding: 5px;
+  }
+  .signinPage .signinCard .card .signinButtons button.linkedin {
+    background: #378fe9;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .signinPage .signinCard .card .forgot {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+  .signinPage .signinCard .card .forgot p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 13px;
+    color: #9d9e9b;
+  }
+  .signinfooter {
+    display: flex;
+    justify-content: space-around;
+  }
+  .signinfooter p {
+    font-family: "Lao Muang Khong";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    color: #ffffff;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /*-------------header---------------*/
+  .header {
+    width: 100%;
+  }
+  .header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header .navbar a.logo img {
+    width: 100%;
+  }
+  .header .navbar .main-menu-nav ul {
+    margin: 0px;
+  }
+  .header .navbar .main-menu-nav ul li {
+    display: inline-block;
+    margin: 0px 0px 0px 17px;
+  }
+  .header .navbar .main-menu-nav ul li a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #dd6501;
+  }
+  .header .navbar .main-menu-nav ul li .btn {
+    width: 114px;
+    height: 36px;
+    color: #ffffff;
+    background: #dd6501;
+  }
+  /* ==========manageYourCapital============= */
+  .manageYourCapital {
+    display: flex;
+    width: 100%;
+    background: url("images/Untitled-1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .manageYourCapital .leftManageFree {
+    width: 50%;
+  }
+  .manageYourCapital .leftManageFree .manageTextBox {
+    width: 65%;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 10% auto 4% 15%;
+    padding: 25px;
+    text-align: center;
+  }
+  .manageYourCapital .leftManageFree .manageTextBox h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #dd6501;
+    /* margin: 20px auto; */
+  }
+  .manageYourCapital .leftManageFree .manageTextBox p {
+    width: 85%;
+    margin: 10px auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .manageYourCapital .leftManageFree .manageTextBox button {
+    padding: 3% 7%;
+    font-family: "Lao Muang Khong";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ffffff;
+    background: #dd6501;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 50px;
+  }
+  .manageYourCapital .rightManageFree {
+    width: 50%;
+  }
+  .manageYourCapital .rightManageFree img {
+    width: 76%;
+    height: 95%;
+    margin: 0% 10%;
+    padding: 10px;
+  }
+  /* ================captableManagement================== */
+  .captableManagement {
+    background: url("images/Rectangle.png");
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+  }
+  .captableManagement .leftCaptable {
+    width: 50%;
+  }
+  .captableManagement .leftCaptable img {
+    width: 76%;
+    height: 95%;
+    margin: 0% 10%;
+    padding: 10px;
+  }
+  .captableManagement .rightCaptable {
+    width: 50%;
+  }
+  .captableManagement .rightCaptable .captableTextBox {
+    margin: 5%;
+  }
+  .captableManagement .rightCaptable .captableTextBox h5 {
+    background: #555555;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #ffffff;
+    padding: 2% 5%;
+    border-radius: 20px;
+    margin-bottom: 40px;
+  }
+  .captableManagement .rightCaptable .captableTextBox ul {
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+  }
+  .captableManagement .rightCaptable .captableTextBox ul li {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+    list-style: none;
+    margin: 0px;
+  }
+  .captableManagement .rightCaptable .captableTextBox button {
+    background: #dd6501;
+    font-family: "Lao Muang Khong";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ffffff;
+    padding: 2% 7%;
+    border-radius: 50px;
+    margin: 6% 35%;
+    text-align: center;
+  }
+  /* ==============ESOP============= */
+  .esop {
+    display: flex;
+    width: 100%;
+    background: url("images/Untitled-2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .esop .leftESOP {
+    width: 50%;
+  }
+  .esop .leftESOP .esopTextBox {
+    margin: 7% 10%;
+  }
+  .esop .leftESOP .esopTextBox h5 {
+    background: #555555;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #ffffff;
+    padding: 1% 10%;
+    border-radius: 20px;
+    margin-bottom: 40px;
+  }
+  .esop .leftESOP .esopTextBox ul {
+    padding: 0px;
+    text-align: center;
+    margin: 0px auto;
+  }
+  .esop .leftESOP .esopTextBox ul li {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #555555;
+    list-style: none;
+    margin: 0px;
+  }
+  .esop .leftESOP .esopTextBox button {
+    background: #dd6501;
+    font-family: "Lao Muang Khong";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ffffff;
+    padding: 2% 12%;
+    border-radius: 50px;
+    margin: 7% 33%;
+    text-align: center;
+  }
+  .esop .rightESOP {
+    width: 50%;
+  }
+  .esop .rightESOP img {
+    width: 50%;
+    height: 83%;
+    margin: 5% 12% 5% 35%;
+    padding: 30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  /* =======whatYouDo======== */
+  .whatYouDo {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 670px;
+  }
+  .whatYouDo .leftWhatYouDo {
+    text-align: center;
+    align-items: center;
+  }
+  .whatYouDo .leftWhatYouDo h6 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    color: #dd6501;
+    margin: 5% 0px;
+  }
+  .whatYouDo .leftWhatYouDo img {
+    width: 100%;
+  }
+  .whatYouDo .rightWhatYouDo {
+    align-items: center;
+    text-align: center;
+  }
+  .whatYouDo .rightWhatYouDo h6 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    color: #dd6501;
+    margin: 9% 0px;
+  }
+  .whatYouDo .rightWhatYouDo img {
+    width: 100%;
+  }
+  /* ==========getStarted========== */
+  .getStarted {
+    background: url("images/Rectangle5.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 3% 0%;
+  }
+  .getStarted .gotQuestion {
+    display: flex;
+    justify-content: space-around;
+    padding: 47px;
+  }
+  .getStarted .gotQuestion .gotText h4 {
+    width: 400px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+  }
+  .getStarted .gotQuestion .gotText p {
+    font-style: normal;
+    width: 400px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+  }
+  .getStarted .gotQuestion button.btnGet {
+    width: 246px;
+    height: 80px;
+    color: #ffffff;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    align-items: center;
+    text-align: center;
+    background: #57b9ba;
+    border-radius: 15px;
+  }
+  .getStarted .gotQuestion button.btnGot {
+    width: 246px;
+    height: 80px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    background: rgba(221, 101, 1, 0.7);
+    border-radius: 15px;
+  }
+  .getStarted .designEsop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .getStarted .designText {
+    display: flex;
+    justify-content: space-around;
+    margin: 3%;
+  }
+  .getStarted .designText div {
+    width: 28%;
+  }
+  .getStarted .designText div h6 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+  }
+  .getStarted .designText div p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+  }
+  /* ==============plugplay============= */
+  .plugPlay {
+    display: flex;
+    width: 100%;
+    height: 431px;
+    background: url("images/Untitled-3.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .plugPlay .leftPlugPlay {
+    width: 50%;
+    padding: 30px;
+  }
+  .plugPlay .leftPlugPlay .esopTextBox {
+    margin: 8% 20% 10% 5%;
+  }
+  .plugPlay .leftPlugPlay .esopTextBox h5 {
+    background: #555555;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #ffffff;
+    padding: 2% 7%;
+    border-radius: 20px;
+    margin-bottom: 40px;
+  }
+  .plugPlay .leftPlugPlay .esopTextBox p {
+    width: 93%;
+    font-family: "SeoulNamsan CBL";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    margin: 0px auto;
+  }
+  .plugPlay .leftPlugPlay .esopTextBox button {
+    background: #dd6501;
+    font-family: "Lao Muang Khong";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ffffff;
+    padding: 2% 15%;
+    border-radius: 50px;
+    margin: 9% 30%;
+    text-align: center;
+  }
+  .plugPlay .rightPlugPlay {
+    width: 50%;
+  }
+  .plugPlay .rightPlugPlay img {
+    width: 74%;
+    height: 77%;
+    margin: 10% 15% 9% 11%;
+    padding: 30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  /* ===================checkOut====================== */
+  .checkOut {
+    width: 100%;
+    height: 866px;
+  }
+  .checkOut h3 {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+    margin-top: 30px;
+  }
+  .checkOut p {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+    margin: 750px 0px 0px 0px;
+  }
+  /* ==============imagesrow============== */
+  .imagesrow {
+    width: 100%;
+    height: 204px;
+    padding: 6% 10%;
+    background: rgba(196, 196, 196, 0.2);
+  }
+  .imagesrow img {
+    width: 100%;
+  }
+  /* ==========bion=========== */
+  .bion {
+    width: 100%;
+    height: 438px;
+    padding: 30px;
+    text-align: center;
+  }
+  .bion h6 {
+    font-family: "Redressed";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    text-align: center;
+  }
+  .bion img {
+    margin: 10% auto;
+    width: 19%;
+    height: 20%;
+  }
+  .bion p {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+  }
+  /* ========footer========= */
+  footer {
+    background: url("images/Rectangle5.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  footer .onehalf {
+    width: 800px;
+  }
+  footer .onehalf .uperhalf {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+  }
+  footer .onehalf .uperhalf ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+  }
+  footer .onehalf .uperhalf ul li {
+    list-style: none;
+  }
+  footer .onehalf .uperhalf ul li a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+  }
+  footer .onehalf .uperhalf ul li a.active {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #dd6501;
+  }
+  footer .onehalf .lowerhalf {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  footer .onehalf .lowerhalf ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+  }
+  footer .onehalf .lowerhalf ul li {
+    list-style: none;
+  }
+  footer .onehalf .lowerhalf ul li a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+  }
+  footer .onehalf .lowerhalf ul li a.active {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #dd6501;
+  }
+  footer .twohalf img {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0px;
+  }
+  footer .twohalf a.news {
+    border: 2px solid #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    padding: 5px 10px;
+  }
+  footer .twohalf .ficons {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto;
+  }
+  footer .twohalf .ficons a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    color: #000000;
+    padding: 0px;
+    text-align: center;
+  }
+  /* ===========signinPage========== */
+  .mainsignin {
+    background: #57b9ba;
+    width: 100%;
+  }
+  .signinPage {
+    display: flex;
+    justify-content: space-around;
+  }
+  .signinPage .signinText {
+    /* width: 50%; */
+    padding: 7%;
+  }
+  .signinPage .signinText ul {
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+  }
+  .signinPage .signinText li {
+    list-style: none;
+    margin: 15% 0px;
+  }
+  .signinPage .signinText li a {
+    display: flex;
+  }
+  .signinPage .signinText ul li a span {
+    font-family: "Lao Muang Khong";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ffffff;
+    margin: 0px;
+  }
+  .signinPage .signinText ul li a img {
+    width: 50px;
+    height: 45px;
+    margin-right: 18px;
+  }
+  .signinPage .signinCard {
+    /* width: 50%; */
+    padding: 7%;
+  }
+  .signinPage .signinCard .card {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5% auto;
+  }
+  .signinPage .signinCard .card .cardAlign {
+    align-items: center;
+    text-align: center;
+  }
+  .signinPage .signinCard .card .cardAlign img {
+    width: 43%;
+    margin: 8% 0px;
+  }
+  .signinPage .signinCard .card .cardAlign input {
+    color: #57b9ba;
+    border: 1px solid #57b9ba;
+    padding: 10px;
+    margin: 2% 0px;
+    width: 80%;
+    font-size: 14px;
+  }
+  .signinPage .signinCard .card .cardAlign input::placeholder {
+    color: #57b9ba;
+  }
+  .signinPage .signinCard .card .cardAlign button {
+    color: #ffffff;
+    background: #dd6501;
+    border-radius: 50px;
+    padding: 8px 20px;
+    font-size: 14px;
+    margin: 2% auto;
+  }
+  .signinPage .signinCard .card .orFlex {
+    display: flex;
+    justify-content: space-around;
+    margin: 3% 0px;
+  }
+  .signinPage .signinCard .card .signinButtons {
+    display: flex;
+    justify-content: space-around;
+  }
+  .signinPage .signinCard .card .signinButtons button.google {
+    background: #dddddd;
+    color: #494949;
+    font-size: 12px;
+    font-weight: 900;
+    border-radius: 20px;
+  }
+  .signinPage .signinCard .card .signinButtons button.linkedin {
+    background: #378fe9;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 5px;
+  }
+  .signinPage .signinCard .card .forgot {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  .signinPage .signinCard .card .forgot p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 13px;
+    color: #9d9e9b;
+  }
+  .signinfooter {
+    display: flex;
+    justify-content: space-around;
+  }
+  .signinfooter p {
+    font-family: "Lao Muang Khong";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    color: #ffffff;
+  }
+}
